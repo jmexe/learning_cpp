@@ -1,0 +1,13 @@
+Undefined symbols for architecture x86_64:
+  "Buddy::cnt", referenced from:
+      _main in main-8213b0.o
+  "Buddy::appeared", referenced from:
+      _main in main-8213b0.o
+  "Buddy::Buddy(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      _main in main-8213b0.o
+  "Buddy::Buddy(Buddy const&)", referenced from:
+      _main in main-8213b0.o
+  "Buddy::~Buddy()", referenced from:
+      _main in main-8213b0.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
